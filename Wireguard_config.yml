@@ -59,4 +59,5 @@ For laptops: First find the config files using the command [~/wireguard/configs/
              Next, do the before/after with the VPN and screenshot the results from IPLeak.net and capture a screenshot of VPN tunnel being active);
              (Be sure to take these versions side by side with VPN tunnel proof)
 
- 
+  # For the laptop version, I had issues; Instead of the original command, I instead found the .conf file using ls ~/wireguard/config and using the command
+  # xdg-open ~/wireguard/config/wg0.conf to get the file contents.
