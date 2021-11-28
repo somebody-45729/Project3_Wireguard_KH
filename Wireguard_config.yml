@@ -58,6 +58,7 @@ For phones: Produce an execution log and QR codes of the VPN using the code [doc
 For laptops: First find the config files using the command [~/wireguard/configs/{username}] and search for the .conf file to d/l (download) or copy to laptop;
              Next, do the before/after with the VPN and screenshot the results from IPLeak.net and capture a screenshot of VPN tunnel being active);
              (Be sure to take these versions side by side with VPN tunnel proof)
+We will be copying .conf file and paste it onto our laptop. We will use the command 
 
   # For the laptop version, I had issues; Instead of the original command, I instead found the .conf file using ls ~/wireguard/config and using the command
   # xdg-open ~/wireguard/config/wg0.conf to get the file contents.
